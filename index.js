@@ -1,3 +1,4 @@
+document.getElementById("con").innerHTML = "<b style=font-size:40px;>ENABLE LOCATION OR SEARCH BY NAME</b>"
 var longi = null;
 var latitude = null;
 st = (response, i, sunrise, sunset, country, name, choice, id) => {
