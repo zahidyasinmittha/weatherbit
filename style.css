@@ -1,0 +1,205 @@
+.navbar-brand {
+    margin-right: 0;
+}
+
+.navbar-brand img {
+    width: 80px;
+}
+.form-search{
+    margin: 0 auto;
+    text-align: center;
+    font: bold 13px sans-serif;
+    max-width: 70%;
+    position: relative;
+}
+
+.form-search input{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 60%;
+    box-sizing: border-box;
+    border-bottom-left-radius: 2px;
+    border-top-left-radius: 2px;
+    background-color:  #ffffff;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    padding: 14px 15px 14px 40px;
+    border: 1px solid #b6c3cd;;
+    border-right: 0;
+    color:#4E565C;
+    outline: none;
+}
+
+.form-search button{
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    background-color:  red;
+    box-shadow: 1px 2px 4px 0 rgba(0, 0, 0, 0.08);
+    color: #ffffff;
+    padding: 15px 22px;
+    margin-left: -4px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+}
+.form-search button:active {
+    background-color: #6caee0;
+    box-shadow: 0 5px #6caee0;
+    transform: translateY(4px);
+} 
+.form-search i{
+    position: absolute;
+    top: 15px;
+    left: 20px;
+    font-size: 16px;
+    color: #80A3BD;
+}
+
+.title__container {
+    align-items: center;
+    display: flex;
+}
+
+.title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+#forecast{
+    width: 300px;
+}
+.weatherIcon {
+    align-items: center;
+    background-size: contain !important;
+    border-radius: 50%;
+    display: flex;
+    height: 36px;
+    justify-content: center;
+    margin-right: 15px;
+    width: 90px;
+    height: 70px;
+}
+
+.partialy-cloudy .weatherIcon {
+    color: #F97F29;
+}
+
+.rainy .weatherIcon {
+    color: #2983FE;
+}
+
+.weatherCard {
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    height: 420px;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 30px;
+    width: 340px;
+}
+
+.partialy-cloudy {
+    background: url('https://wallpapercave.com/wp/wp5946426.jpg') bottom center;
+    background-size: cover;
+    color: white;
+}
+.date{
+    text-align: center;
+    margin: 5px;
+}
+.info__container {
+    display: flex;
+}
+
+.info {
+    align-items: center;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    height: 80px;
+    justify-content: center;
+    width: 110px;
+}
+
+.info__title {
+    font-size: 10px;
+    margin-bottom: 2px;
+    font-weight: bold;
+    
+}
+
+.info__value {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.temperature {
+    align-items: center;
+    display: flex;
+    margin: 5px 0;
+}
+
+.temperature__max {
+    font-size: 48px;
+}
+
+.temperature__min {
+    align-items: center;
+    background-color: #fff;
+    border-radius: 8px;
+    color: #000;
+    display: inline-flex;
+    font-size: 12px;
+    margin-left: 15px;
+    padding: 0 8px;
+    height: 24px;
+}
+
+.pressure {
+    background-color: #FF3EA5FF;
+    color: white;
+}
+
+.visibility {
+    background-color:#EDFF00FF;
+    color: #2A2B2DFF;
+    margin: 0 15px;
+}
+
+.rain {
+    background-color:#00A4CCFF;
+    color: white;
+}
+
+.forecast,
+.city {
+    font-size: 14px;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar-brand img {
+        width: 100px;
+        float: left;
+    }
+
+    .navbar .container-fluid {
+        flex-direction: column;
+    }
+
+    .navbar .navbar-nav .nav-item {
+        padding: 0.5em 1em;
+    }
+
+    .navbar-nav {
+        border-bottom: 2px solid #fff;
+    }
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.1em;
+}
+
+.navbar .navbar-nav {
+    border-top: 2px solid #fff;
+    margin-top: 0.5em;
+}
