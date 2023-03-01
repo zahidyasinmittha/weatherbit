@@ -69,6 +69,7 @@
 .weatherIcon {
     align-items: center;
     background-size: contain !important;
+    background-color: rosybrown !important;
     border-radius: 50%;
     display: flex;
     height: 36px;
@@ -90,7 +91,7 @@
     border-radius: 25px;
     display: flex;
     flex-direction: column;
-    height: 420px;
+    height: 430px;
     justify-content: space-between;
     margin: 20px;
     padding: 30px;
