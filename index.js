@@ -58,7 +58,7 @@ st = (response, i, sunrise, sunset, country, name, choice, id) => {
 
     if (choice == 1) {
         document.getElementById("con").innerHTML += str;
-        document.getElementsByClassName(`weatherIcon`)[id].style.background = ` url(http://openweathermap.org/img/wn/${response.weather[i].icon}@2x.png) no-repeat  center center`
+        document.getElementsByClassName(`weatherIcon`)[id+1].style.background = ` url(http://openweathermap.org/img/wn/${response.weather[i].icon}@2x.png) no-repeat  center center`
         document.getElementById("btn-forecast").innerHTML = ""
     }
     else {
